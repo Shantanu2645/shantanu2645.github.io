@@ -36,7 +36,7 @@
         }
 
         .container {
-            width: 80%;
+            width: 90%;
             margin: 20px auto;
         }
 
@@ -65,7 +65,8 @@
             background-color: #fff;
             border: 1px solid #ddd;
             border-radius: 10px;
-            width: 30%;
+            width: 100%;
+            max-width: 300px;
             margin-bottom: 20px;
             padding: 20px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -117,6 +118,73 @@
         footer p {
             font-size: 1rem;
         }
+
+        /* Media query for mobile */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+
+            .about h2 {
+                font-size: 1.5rem;
+            }
+
+            .about p {
+                font-size: 1rem;
+            }
+
+            .project-card {
+                width: 100%;
+                margin-bottom: 15px;
+            }
+
+            .contact h2 {
+                font-size: 1.5rem;
+            }
+
+            .contact a {
+                padding: 8px 16px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            header p {
+                font-size: 0.9rem;
+            }
+
+            .about h2 {
+                font-size: 1.3rem;
+            }
+
+            .about p {
+                font-size: 0.9rem;
+            }
+
+            .contact h2 {
+                font-size: 1.3rem;
+            }
+
+            .project-card h3 {
+                font-size: 1.3rem;
+            }
+
+            .project-card p {
+                font-size: 0.9rem;
+            }
+
+            .contact a {
+                padding: 7px 15px;
+                font-size: 0.9rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -142,8 +210,6 @@
         <section class="contact">
             <h2>Contact Me</h2>
             <a href="https://github.com/shantanu2645" target="_blank">GitHub</a>
-            <!-- Uncomment if you'd like to include email -->
-            <!-- <a href="mailto:shantanu@example.com">Email</a> -->
         </section>
     </div>
 
