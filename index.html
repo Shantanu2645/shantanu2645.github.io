@@ -121,41 +121,39 @@
 </head>
 <body>
     <header>
-        <h1>Your Name</h1>
-        <p>Software Developer | Designer | Innovator</p>
+        <h1>Shantanu Dey Anik</h1>
+        <p>Cybersecurity Engineer | DevOps</p>
     </header>
 
     <div class="container">
         <section class="about">
             <h2>About Me</h2>
-            <p>Hello! I'm a passionate developer with a knack for creating elegant solutions to complex problems. 
-            I love working on projects that make an impact, and I'm always eager to learn new things!</p>
+            <p><b>Hello! I'm a passionate DevOps and Cybersecurity Engineer dedicated to building robust, secure, and scalable systems.</b></p>
+            <p>I specialize in automating infrastructure, ensuring seamless deployment pipelines, and safeguarding environments from evolving cyber threats. With a strong focus on efficiency and security, I love working on projects that deliver real-world impact and continuously push me to stay ahead of emerging technologies.</p>
         </section>
 
         <section class="projects">
             <div class="project-card">
-                <h3>Project One</h3>
-                <p>A brief description of your amazing project goes here.</p>
-            </div>
-            <div class="project-card">
-                <h3>Project Two</h3>
-                <p>A brief description of another cool project.</p>
-            </div>
-            <div class="project-card">
-                <h3>Project Three</h3>
-                <p>A brief description of yet another awesome project.</p>
+                <h3>Pastejacking Awareness</h3>
+                <p>PasteJacking is a trick used by bad people on websites.</p>
             </div>
         </section>
 
         <section class="contact">
             <h2>Contact Me</h2>
             <a href="https://github.com/shantanu2645" target="_blank">GitHub</a>
-            <a href="mailto:yourname@email.com">Email</a>
+            <!-- Uncomment if you'd like to include email -->
+            <!-- <a href="mailto:shantanu@example.com">Email</a> -->
         </section>
     </div>
 
     <footer>
-        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+        <p>&copy; <span id="currentYear"></span> Shantanu Dey Anik. All Rights Reserved.</p>
     </footer>
+
+    <script>
+        // Set the current year in the footer
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
